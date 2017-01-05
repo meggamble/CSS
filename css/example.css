@@ -26,5 +26,14 @@ p{
 	border: 5px dotted blue;
 	margin: 50px;
 	padding: 50px;
-
 }
+p.one{
+	font-size: 45px;
+	height: 500px;
+	width: 500px;
+	overflow: hidden;}
+p.two{
+	font-size: 45px;
+	height: 300px;
+	width: 300px;
+	overflow: scroll;}
