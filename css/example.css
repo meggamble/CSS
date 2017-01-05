@@ -1,0 +1,20 @@
+h1{
+	font-family: sans-serif;
+	color: cornflowerblue;
+}
+
+p{
+	color: black;
+	font-family: cursive;
+	font-size: 45px;
+	background-color: aquamarine;
+	text-align: center
+}
+#Boxy{
+	height: 100px;
+	widows: 600px;
+	background-color: dodgerblue;
+	border: 3px dotted black;
+	margin: 50px;
+	padding: 30px;
+}
