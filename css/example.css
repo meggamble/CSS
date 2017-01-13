@@ -11,15 +11,16 @@
 }
 h1{
 	font-family: 'ayt_caslonblack', sans-serif;
-	color: cornflowerblue;
+	background-color: #ee3e80;
+	background-color: hsl(12%,17%,0%)#c34646;
 }
 
 p{
 	color: black;
 	font-family: cursive;
 	font-size: 45px;
-	background-color: aquamarine;
-	text-align: center
+	text-align: center;
+
 }
 #Boxy{
 	height: 100px;
@@ -37,14 +38,26 @@ p{
 	border: 5px dotted blue;
 	margin: 50px;
 	padding: 50px;
+	background-color: rgb(200,200,200);
+	opacity: 0.5;
+
 }
 p.one{
 	font-size: 45px;
 	height: 500px;
 	width: 500px;
-	overflow: hidden;}
+	overflow: hidden;
+}
 p.two{
 	font-size: 45px;
 	height: 300px;
 	width: 300px;
-	overflow: scroll;}
+	overflow: scroll;
+	background-color: bisque;
+}
+
+#Page{
+	background-color: bisque;
+	border-radius: 450px;
+
+}
