@@ -11,8 +11,7 @@
 }
 h1{
 	font-family: 'ayt_caslonblack', sans-serif;
-	background-color: #ee3e80;
-	background-color: hsl(12%,17%,0%)#c34646;
+	background-color: hsl(12%,17%,0%);
 }
 
 p{
@@ -47,6 +46,7 @@ p.one{
 	height: 500px;
 	width: 500px;
 	overflow: hidden;
+	background-color: #63afe2;
 }
 p.two{
 	font-size: 45px;
