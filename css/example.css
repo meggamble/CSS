@@ -19,9 +19,10 @@ p{
 	font-family: cursive;
 	font-size: 45px;
 	text-align: center;
-
 }
+
 #Boxy{
+	position:static;
 	height: 100px;
 	widows: 600px;
 	background-color: dodgerblue;
@@ -31,14 +32,18 @@ p{
 }
 
 #Cooleo{
-	height:;
-	width:;
+	height:40px;
+	width:400px;
 	background-color: bisque;
 	border: 5px dotted blue;
 	margin: 50px;
 	padding: 50px;
 	background-color: rgb(200,200,200);
 	opacity: 0.5;
+	position: fixed;
+	float: left;
+
+
 
 }
 p.one{
@@ -47,6 +52,8 @@ p.one{
 	width: 500px;
 	overflow: hidden;
 	background-color: #63afe2;
+	position:absolute;
+	z-index: 10;
 }
 p.two{
 	font-size: 45px;
@@ -54,6 +61,8 @@ p.two{
 	width: 300px;
 	overflow: scroll;
 	background-color: bisque;
+	position: relative;
+	z-index: 5;
 }
 
 #Page{
