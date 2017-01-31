@@ -41,7 +41,7 @@ p{
 	background-color: rgb(200,200,200);
 	opacity: 0.5;
 	position: fixed;
-	float: left;
+	float:none;
 
 
 
@@ -63,10 +63,12 @@ p.two{
 	background-color: bisque;
 	position: relative;
 	z-index: 5;
+	float: right
 }
 
 #Page{
 	background-color: bisque;
 	border-radius: 450px;
+	text-align: center
 
 }
