@@ -72,3 +72,13 @@ p.two{
 	text-align: center
 
 }
+
+.Lucky{
+	color: aqua;
+}
+
+.fartbarf{
+	height: 200px;
+	width: 300px;
+	position: absolute;
+}
